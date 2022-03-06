@@ -1,0 +1,14 @@
+.div{
+   flex : 6    
+}
+
+.GameOver{
+    margin-left: auto;
+    width: 50vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
