@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    #6372ff 0%,
+    #5ca9fb 100%
+  ) !important;
+  min-height: 350px;
+}
+.section {
+  margin-top: 50px;
+  width: 30%;
+  border-bottom: 1px solid black;
+}
+
+.container2 {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+.container2 > div {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.container2 > div > svg {
+  /* display: none; */
+  font-size: 26px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    min-height: inherit;
+  }
+  .container2 {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .section {
+    width: 60%;
+  }
+  .container2 > div > svg {
+    /* display: none; */
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
